@@ -7,6 +7,9 @@ const assert = require("assert");
 function makeGreeting(name, language) {
     "use strict";
     if (language === "Spanish") {
+        if (name) {
+            return "¡Hola " + name + "!";
+        }
         return "¡Hola mundo!";
     }
     if (name) {
