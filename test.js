@@ -6,7 +6,8 @@ const assert = require("assert");
 
 function makeGreeting() {
     "use strict";
-    return undefined;
+    return "Hello world!";
 }
 
 assert.strictEqual(makeGreeting(), "Hello world!");
+console.log("Your test has passed!");
