@@ -1,0 +1,13 @@
+/*jslint
+    node
+*/
+
+const assert = require("assert");
+
+function makeGreeting() {
+    "use strict";
+    return "Hello world!";
+}
+
+assert.strictEqual(makeGreeting(), "Hello world!");
+console.log("Your test has passed!");
