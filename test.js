@@ -18,4 +18,5 @@ function makeGreeting(name, language) {
 assert.strictEqual(makeGreeting(), "Hello world!");
 assert.strictEqual(makeGreeting("Zach"), "Hello Zach!");
 assert.strictEqual(makeGreeting("", "Spanish"), "¡Hola mundo!");
+assert.strictEqual(makeGreeting("Ben", "Spanish"), "¡Hola Ben!");
 console.log("Your test has passed!");
